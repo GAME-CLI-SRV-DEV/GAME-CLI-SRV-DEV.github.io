@@ -14,3 +14,8 @@ Game Client and Server Software Repository Owned By Outfit8TSB.
 [SpongeForTomCamp](https://github.com/GAME-CLI-SRV-DEV/TomCamp-API.git/tree/Sponge)
 [ModLoaderAPIForTomCamp](https://github.com/GAME-CLI-SRV-DEV/TomCamp-API.git/tree/Mod)
 [Travertine](https://github.com/GAME-CLI-SRV-DEV/Travertine-REVIVED.git)(Formerly [PaperMC/Travertine](https://github.com/PaperMC/Travertine.git)),
+
+# How To Use
+You Can Use the website to bypass GeyserMC's Authentication form on where Floodgate is Not Installed.   
+
+Method 1: This Only Works in NogyangSpigot For Minecraft 1.20.6 Using ViaVersion and Geyser Before pull re
