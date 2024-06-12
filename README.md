@@ -16,6 +16,12 @@ Game Client and Server Software Repository Owned By Outfit8TSB.
 [Travertine](https://github.com/GAME-CLI-SRV-DEV/Travertine-REVIVED.git)(Formerly [PaperMC/Travertine](https://github.com/PaperMC/Travertine.git)),
 
 # How To Use
-You Can Use the website to bypass GeyserMC's Authentication form on where Floodgate is Not Installed.   
+You Can Use the website to bypass GeyserMC's Authentication form on where Floodgate is Not Installed and if you don't have java account. 
+However, this is still under construction.
 
-Method 1: This Only Works in NogyangSpigot For Minecraft 1.20.6 Using ViaVersion and Geyser Before pull re
+Method 1: This Only Works in NogyangSpigot For Minecraft 1.20.6 Using ViaVersion and Geyser Before GeyserMC#4147(https://github.com/GeyserMC/Geyser/pull/4147).
+click Password login
+type nogyangserver.u{YOURUSERNAME}@mail.nogyang.ms.kr + nogyangserver passcode.
+Method 2: 
+Use geyserauth.nogyang.ms.kr and input the auth code there.
+do not use Microsoft acc -> web login's website.
