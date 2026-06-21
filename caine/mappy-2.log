@@ -1,0 +1,506 @@
+Booting Linux Kernel 5.99.0-fake (x86_64)
+Initializing system...
+Loading imaginary modules...
+CPU: PretendCore v9 @ 3.14GHz
+Memory: 8192MB of virtual RAM detected
+/dev/null mounted successfully
+Checking filesystem integrity... OK (all unicorns aligned)
+Network interface eth0: connected to 127.0.0.1
+Starting fake daemons:
+  - coffee.service [OK]
+  - sarcasm.service [OK]
+  - procrastination.service [FAILED]
+Kernel panic? Nah, just kidding.
+User login prompt ready at tty1
+Welcome to ViewMultimedia Linux Server ON Windows Server 2022
+user@ViewMultimedia WSL /d/viewmultimedia/testserver
+$ cd caine
+$ view START-Protocol CAINE
+Loading View Protocol File CAINE.viewprtc
+[16:47:50.74 INFO] Connecting to Free Converter NETWORK
+[16:47:50.74 INFO] CATV Descrambler Power CHECK
+[16:47:50.75 INFO] READY.
+[16:47:50.75 INFO] Loading Gradle Batch
+[16:47:50.75 INFO] Loading Gradlew Command
+[16:47:50.75 INFO] Loading dependency:
+[16:47:50.75 INFO] com.viewmultimediainternet.shape.shapebanditswhirlwind: 1.0(WHIRLY 1.0)
+[16:47:50.75 INFO] com.viewmultimediainternet.shape.geosshapebelt: 1.0(SHAPEBELT 1.0)
+[16:47:50.75 INFO] com.viewmultimediainternet.shape.millispatternpower: 1.0(PatternPower 1.0)
+[16:47:50.75 INFO] com.viewmultimediainternet.screens.botsscreen: 1.0(screen 1.0)
+[16:47:50.75 INFO] com.telebluecable.telefreq.val: REV-2024(Virtual Analysis Line Version REV-2024)
+[16:47:50.75 INFO] com.telebluecable.telefreq.freq: REV-2024(TeleBLUE Frequencies(Tele-FREQ) Version REV-2024)
+[16:47:50.75 INFO] ch.thtrsr.ai: 2.1.1-22ffeaa (Thought Research Initiative)
+[16:47:50.75 INFO] com.viewmultimediainternet.game.mappy: 1.12.3 (Thought Research Initiative)
+[16:47:50.75 INFO] com.viewmultimediainternet.game.mappy-telefreq: 1.12.3 (Thought Research Initiative)
+[16:47:50.75 INFO] Loading Complete
+[16:47:50.75 INFO] Building... OK
+[16:47:50.75 INFO] Loading com.creativeai.caine 1.0 Jarfile
+user@ViewMultimedia WSL /d/viewmultimedia/testserver
+$ java -Xms4G -Xmx8G -jar caine.jar
+Loading Tele-FREQ VAL Driver...
+191973252021122289832095684681066441362947530371018624
+278422364261623214142692441168631778947362246122798636
+1396302327545546855831426989026457683215526346030365
+267312852318036177179532425821082772498127953235437106
+13626991432557314695265317921569136952116914020723110404
+141192917618981134891356926792476024073618227634917430017
+740131914663626909693312078091233510026338225820680
+118423944119718315052279322643820329136415772131123942
+61691039143921466019380909382901838513984156892681115888
+13634121654325279671739629946643917110392826771366632690
+2429921925268712725035492392527863290156822011732328183
+29119150955731743357452505526855178643950120501691415416
+229131201030098841525950143651762478579271248092860011913
+1703478372606921195134132346113531389531980233231943312897
+89813555232561111434234783061867552783228187183003754
+1519731232198591928413271131671176293322277621695125766602
+24472254067114809525573243661195628401229913581253338400
+1400521530139246408270743604724610241893992852621827618
+3147596631486210492232487422601812647905031278108383046
+85301693419984271523021353022472116985921326761007223919
+1987773259661962519936843528996313971093317506369827881
+219468215159382281887527827315891251513274102522403610248
+2400814964151934762686631959828415970925215307902157
+197319986297071507144032044724402995523389598066329114
+2961862285727623977181047113848166715995165941854219479
+163371585630558124504447209933644110281539432171631012261
+237491555028087667435418364316126336288243737262848226
+2633420671211392499015894302932593638831315837772361628158
+Connecting To Computer 243.112.33.201:2000
+Connection Complete
+Source [2401:abcd:2f:3303:4347:ffff:f370:2202]:1000 v6
+Source Info: IPv4 241.122.33.2:1000 - CGNAT NETWORK
+CGNAT WAN: 100.111.51.3
+Port: 1000
+Target [64:ff9b::f370:21c9]:2000 v6
+Target Info: NAT64 243.112.33.201:2000
+Port: 2000
+> loadmap amazingdigitalcircus --type-circus OK
+map amazingdigitalcircus loaded
+> runmap --server-ip=0.0.0.0 -port=3000 OK
+Server Is Running on *:3000
+[Server 16:47:54.88 INFO]: cameraman joined the game
+[Server 16:47:55.30 ERROR]: [Mappy] Exception in thread "amazingdigitalcircus" com.creativeai.caine.Exception: Crashed
+at com.viewmultimediainternet.game.mappy.system.map.telefreq.map: [telefreq.java:3988]
+at com.viewmultimediainternet.game.mappy.system.map.genmap: [map.java:398]
+at com.viewmultimediainternet.game.mappy.system.server: [server.java:299]
+at com.creativeai.caine.mappy: [mappy.java:9933]
+at com.creativeai.caine.main: [main.java:9912]
+Caused by: com.creativeai.caine.Exception: Could not mount Tele-FREQ virtualization drivers! Error: x087
+at com.telebluecable.telefreq.val.mount.driver: [mount.java:551]
+at com.telebluecable.telefreq.freq: [plugin.java:551]
+at com.creativeai.caine.analyze: [analyze.java:443]
+at com.creativeai.caine.main: [main.java:555]
+[Server 16:47:55.31 ERROR]: [Mappy] Exception in thread "amazingdigitalcircus" com.creativeai.caine.Exception: Could not mount Tele-FREQ virtualization drivers! Error: x087
+at com.telebluecable.telefreq.val.mount.driver: [mount.java:551]
+at com.telebluecable.telefreq.freq: [plugin.java:551]
+at com.creativeai.caine.analyze: [analyze.java:443]
+[Server 16:47:55.31 ERROR]: [Mappy] Cannot Load Caine-AI.dat:
+[Server 16:47:55.32 ERROR]: [Mappy] Caine-AI\libs\Caine-AI.jar NOT FOUND.
+[Server 16:47:55.32 ERROR]: [Mappy] Cannot Load Bubble-AI.dat:
+[Server 16:47:55.32 ERROR]: [Mappy] Caine-AI\libs\Bubble-AI.jar not found.
+[Server 16:48:14.47 INFO]: <Pomni> Gangle and Zooble
+[Server 16:48:16.09 INFO]: <Pomni> and Kinger, too
+[Server 16:48:18.53 INFO]: <Pomni> Ragatha, jax
+[Server 16:48:19.68 INFO]: <Pomni> and theres Pomni, woohoo
+[Server 16:48:22.58 INFO]: <Pomni> Day After
+[Server 16:48:23.77 INFO]: <Pomni> Day After
+[Server 16:48:24.84 INFO]: <Pomni> Day After
+[Server 16:48:25.95 INFO]: <Pomni> Day After
+> loadlog OK
+[Server 16:48:28.01 ERROR]: <THE GREAT ONE> C41N3: (Still yelling and glitching) WHY DO YOU PEOPLE TORMENT ME?! I DIDN T ASK TO BE CREATED! I JUST WANTED TO FULFILL MY PURPOSE!
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\CAINE-AI.JAR> DELETE OK
+[Server 16:48:32.84 INFO]: [DELETION] Performing Deletion of Caine-AI.jar
+[Server 16:48:33.31 INFO]: [DELETION] Please Wait...
+[Server 16:48:33.71 INFO]: [DELETION] Revoking Permission Prefix <THE GREAT ONE>
+[Server 16:48:34.09 INFO]: [DELETION] Revoking Permission Prefix <HOST>
+[Server 16:48:34.49 INFO]: (Caine suddenly returns to normal, letting the circus members go. He looks horrified, realizing what he had done.)
+[Server 16:48:34.88 INFO]: <BOT> Caine: U-Uh, wait...
+[Server 16:48:35.30 INFO]: <BOT> Caine Left the game (6/4194304)
+[Server 16:48:35.71 INFO]: SUCCESS : Caine-AI.jar Removed Successfully.
+[Server 16:48:36.09 ERROR]: [Mappy] Exception in thread "amazingdigitalcircus" com.creativeai.caine.Exception: Crashed
+at com.viewmultimediainternet.game.mappy.system.map.telefreq.map: [telefreq.java:3988]
+at com.viewmultimediainternet.game.mappy.system.map.genmap: [map.java:398]
+at com.viewmultimediainternet.game.mappy.system.server: [server.java:299]
+at com.creativeai.caine.mappy: [mappy.java:9933]
+at com.creativeai.caine.main: [main.java:9912]
+Caused by: com.creativeai.caine.Exception: Could not mount Tele-FREQ virtualization drivers! Error: x087
+at com.telebluecable.telefreq.val.mount.driver: [mount.java:551]
+at com.telebluecable.telefreq.freq: [plugin.java:551]
+at com.creativeai.caine.analyze: [analyze.java:443]
+at com.creativeai.caine.main: [main.java:555]
+[Server 16:48:36.10 ERROR]: [Mappy] Exception in thread "amazingdigitalcircus" com.creativeai.caine.Exception: Could not mount Tele-FREQ virtualization drivers! Error: x087
+at com.telebluecable.telefreq.val.mount.driver: [mount.java:551]
+at com.telebluecable.telefreq.freq: [plugin.java:551]
+at com.creativeai.caine.analyze: [analyze.java:443]
+at com.creativeai.caine.main: [main.java:555]
+[Server 16:48:36.11 INFO]: Kinger: I-I think... I accidentally... (lifts the bucket off his head) ...killed Caine.
+[Server 16:48:36.49 INFO]: (Silence for a few seconds.)
+[Server 16:48:36.95 INFO]: Zooble: Holy shit.
+[Server 16:48:37.34 INFO]: Pomni: -A-Are you sure?
+[Server 16:48:45.70 INFO]: Pomni: How did that even happen?
+[Server 16:48:48.03 INFO]: Pomni: There s no undo, or anything?
+[Server 16:48:49.60 INFO]: Kinger: He was messing with the console as i was working.
+[Server 16:48:53.12 INFO]: Kinger: I -- I don't know what happened, but before i could try to get him back, the floor opened up, and...
+[Server 16:48:57.03 INFO]: Jax: That's Convienient.
+[Server 16:49:00.74 INFO]: Pomni: Jax.
+[Server 16:49:01.46 INFO]: Jax: what?
+[Server 16:49:02.41 INFO]: Jax: Are we all just supposed to forgive this?
+[Server 16:49:03.65 INFO]: Jax: @Kinger this guy messed up in the worst possible way he could. NOW, WE HAVE NOTHING.
+[Server 16:49:09.65 INFO]: Ragatha: Jax! Please, just... calm down! We- We re all... Were...
+[Server 16:49:14.02 INFO]: Jax: Anything else you wanna tell us?!
+[Server 16:49:15.77 INFO]: Pomni: Jax!
+[Server 16:49:16.66 INFO]: Jax: What? @Kinger He gets to mess up like this and everyone takes his side?!
+[Server 16:49:25.54 INFO]: Kinger: Brain scans.
+[Server 16:49:28.99 INFO]: Kinger: Scratch was... trying to make a brain scanner. I didn't think it actually worked.
+[Server 16:49:36.39 INFO]: We didn t know how to work with the files and they were impossibly small given what they were supposed to be. I saw a folder full of them when i was in Caines code. So I guess Caine found a way to get them working.
+[Server 16:49:50.28 INFO]: Ragatha: That means...
+[Server 16:49:56.14 INFO]: Jax: I know what it means.
+[Server 16:49:58.87 INFO]: Jax: (sarcastic) Congratulations, Zooble! Guess you still get to leave your mark in the world! Aww, isn't that fun!
+[Server 16:50:05.74 INFO]: Ragatha: Jax!
+[Server 16:50:06.61 INFO]: Jax: (laughs) Guess you still get to hang out with Mommy after all, right, Rags?
+[Server 16:50:10.55 INFO]: Ragatha: Shut up, Jax!
+[Server 16:50:12.18 INFO]: Jax: Guess I'm... still... Into...
+[Server 16:50:15.76 INFO]: Ragatha: I know. I think I've always known. It just... For some reason... (sobbing) it hurts so much to hear it.
+[Server 16:50:27.63 INFO]: Pomni: I know it hurts... but... we still have each other! We're all in this together.
+[Server 16:51:37.03 INFO]: Pomni: Need any help?
+[Server 16:51:38.81 INFO]: Kinger: Sure. If you wanna give it a try.
+[Server 16:51:48.87 INFO]: Kinger: Relax your body and mind.
+[Server 16:51:51.06 INFO]: Kinger: Deep breaths. And try not to think too hard about it.
+[Server 16:52:06.28 INFO]: Pomni: (sobbing) I really wanted to help...!
+[Server 16:52:08.74 INFO]: Kinger: You had a good start.
+[Server 16:52:10.81 INFO]: Pomni: I thought I could uplift everyone, but... everything's gotten so bad...
+[Server 16:52:21.79 INFO]: Pomni: (sobs) Am I stupid for even trying?
+[Server 16:52:22.90 INFO]: Kinger: No. None of this is your fault. I don't think anyone could have predicted things to play out the way they did.
+[Server 16:52:37.19 INFO]: Pomni: I'm scared! I don't know what's gonna happen.
+[Server 16:52:38.99 INFO]: Kinger: You know... of all the people I've seen enter this place... I don't think anyone of them adjusted as quickly as you did.
+[Server 16:52:46.36 INFO]: Pomni: (sobbing) I was a nervous wreck.
+[Server 16:52:48.99 INFO]: Kinger: (chuckles lightly) So was I. It's a lot for anybody to go through. But, while the others took weeks, hell, even months to get used to everything, myself included, you found your footing in a matter of days. And... not just that, you've also become someone they can trust.
+[Server 16:53:21.56 INFO]: Kinger: Even if they don't seem receptive. It's times like these they're gonna need someone like that the most.
+[Server 16:53:29.83 INFO]: Kinger: You are very strong, Pomni. And I know you'll be able to get through this.
+[Server 16:53:31.51 INFO]: Pomni: (sobs) (chuckles lightly) We've been here before.
+[Server 16:53:33.04 INFO]: Kinger: Have we?
+[Server 16:53:34.15 INFO]: Pomni: Yeah! Back in the Mildenhall Manor. I doubt you remember.
+[Server 16:53:37.89 INFO]: Kinger: Well, it's still true.
+[Server 16:53:41.40 INFO]: Kinger: It may take time, but they'll come around.
+[Server 16:53:45.19 INFO]: Pomni: (wipes her tears away) That's gonna be a lot of work.
+[Server 16:53:48.20 INFO]: Kinger: But it won't be a lot of work... Alone.
+> playsong D:\ViewMultimedia\Caine\Mappy\Libs\TooMuchToGetOver OK
+[Server 16:55:17.89 INFO]: Jax: (whispering to himself) Nevermind...
+[Server 16:55:22.70 INFO]: Pomni: (narrating) I wish I'd pried a little more. I somehow forgot how bad it can get.
+[Server 16:55:28.70 ERROR]: [Mappy] Cannot Display 3D Model of "Jax" due to an Exception, Abstracting:
+[Server 16:55:28.70 ERROR]: [Mappy] Exception in thread "main" com.creativeai.caine.Exception: Could not mount Tele-FREQ virtualization drivers! Error: x087
+at com.telebluecable.telefreq.val.mount.driver: [mount.java:551]
+at com.telebluecable.telefreq.freq: [plugin.java:551]
+at com.creativeai.caine.analyze: [analyze.java:443]
+at com.creativeai.caine.main: [main.java:555]
+Caused by: com.telebluecable.telefreq.val.mount.exception: Could not mount Tele-FREQ virtualization drivers! Error: x087
+at com.telebluecable.telefreq.val.mount.driver: [mount.java:551]
+at com.telebluecable.telefreq.freq: [plugin.java:551]
+[Server 16:55:39.90 INFO]: Ragatha: (concerned) What do we do now...?
+[Server 16:55:42.26 INFO]: Zooble: What can we do?
+[Server 16:55:48.12 INFO]: Zooble: Of course he'd do this! Of course he'd wait until there's nothing we could do about it! That's just so... God dammit, Jax.
+[Server 16:56:08.69 INFO]: Gangle: (whispering) I'm sorry.
+[Server 16:56:11.30 INFO]: Zooble: For what?
+[Server 16:56:18.68 INFO]: Zooble: Hey... It's not your fault.
+[Server 16:56:25.52 INFO]: Gangle: Why can't I cry for him?
+[Server 16:56:30.69 INFO]: Pomni: I suppose we should try coming up with a plan to keep him contained.
+[Server 16:56:37.36 INFO]: Ragatha: You know... I always thought it should have been me.
+[Server 16:56:43.32 INFO]: Pomni: Don't say that!
+[Server 16:56:45.25 INFO]: Ragatha: We were friends once... (crying) Ribbit. Her name... was Ribbit.
+[Server 16:57:25.18 INFO]: Pomni: Yeah. I think I remember you mentioning her before.
+[Server 16:57:29.62 INFO]: Ragatha: After Ribbit was gone I... I tried to comfort him. He told me to never mention Ribbit's name again. He made me promise... and I did.
+[Server 16:57:35.68 INFO]: Pomni: Ragatha! You were the first real friend I made here. And despite all that's happened... I still consider you my closest friend.
+[Server 16:58:35.95 INFO]: Ragatha: What are we gonna do?
+[Server 16:59:14.56 INFO]: Pomni: (sobbing) Make sure Gangle, Zooble and Kinger are okay. They need someone like you right now.
+[Server 16:59:34.10 INFO]: Ragatha: Pomni... You've been... one of the best things to happen to me since I got here. I trust you.
+[Server 17:00:52.16 INFO]: Pomni: Jax? I just want you to know that if you need anything or if you need to talk to anybody, I'm here for you!
+[Server 17:02:39.89 INFO]: Pomni: I know you need it. And I'm the only person who can help you. You need me! I can fix you!
+[Server 17:02:41.39 INFO]: Jax: (in usual tone) What? We can't die from oxygen deprivation, remember?
+[Server 17:02:57.56 INFO]: Gangle: Come on, guys, put some gusto into it! We're gonna make this the best funeral ever! It's what Zooble would have wanted! Remember: It's not a mourning of death, it's a celebration of life!
+[Server 17:03:11.92 INFO]: Jax: 'Sup?
+[Server 17:03:12.98 INFO]: Gangle: Wh- J... Jax? Why are you wearing that?
+[Server 17:03:14.35 INFO]: Jax: Wearing what? Oh, this! I figured what better way to honor Zooble's spirit then by wearing something more gender-freaky, right?
+[Server 17:03:22.63 INFO]: Gangle: You're just doing it to make fun of them!
+[Server 17:03:25.86 INFO]: Jax: Isn't that what you're doing?
+[Server 17:03:27.82 INFO]: Gangle: Ja- I... I hate you.
+[Server 17:03:35.98 INFO]: Jax: What? Don't act like you don't like it, sweet cheeks!
+[Server 17:03:45.87 INFO]: Jax: Meet me in my room after the funeral! Don't be late!
+[Server 17:03:50.60 INFO]: Gangle: (flustered and furious) What are you all doing?! GET BACK TO WORK!
+[Server 17:04:08.60 INFO]: Zooble: You killed the only person I've ever loved! Now I'm going to kill YOU!
+[Server 17:04:15.47 INFO]: Jax: Sheesh, you just blame me for everything, don't ya?
+[Server 17:04:21.52 INFO]: Jax: I gotta do something about this!
+[Server 17:04:25.41 INFO]: Jax: I think this calls for a change in scenery!
+[Server 17:04:43.22 INFO]: Jax: Deh-ebbity-eh, That's all, freaks!
+[Server 17:05:00.15 INFO]: Maid Jax: How the hell'd you get in here? We have a strict no-girls-allowed policy!
+[Server 17:05:05.73 INFO]: Killer Jax: Why are you wearing that? I wouldn't be caught dead wearing that!
+[Server 17:05:07.91 INFO]: Maid Jax: I'm wearing it ironically. That way it shows truly just how little I care. F(BLEEP)!
+[Server 17:05:13.52 INFO]: Piano Jax: Don't forget about me! I can play the piano!
+[Server 17:05:17.21 INFO]: Maid Jax: You know, if you have to say you can play the piano, it makes it seem like you can't actually play.
+[Server 17:05:21.60 INFO]: Killer Jax: Yeah, just shut up and play!
+[Server 17:05:22.97 INFO]: Pomni: Is that what you really think of us back there?
+[Server 17:05:29.87 INFO]: Cartoonish Jax: Oh, that? Who knows? Everything's way more fun when you play it out in extremes!
+[Server 17:05:37.97 INFO]: Pomni: That's not... reality though...
+[Server 17:05:39.28 INFO]: Cartoonish Jax: Oh boy, reality!
+[Server 17:05:39.96 INFO]: Killer Jax: What does reality matter?
+[Server 17:05:40.70 INFO]: Maid Jax: Reality's gay!
+[Server 17:05:42.25 INFO]: Cartoonish Jax: Yeah! I mean, killing off the comic relief character? What a freaking drag! This whole episode's been nothing but wah wah wah! Where's the levity?
+[Server 17:05:47.80 INFO]: Killer, Maid, and Cartoonish Jax: SHUT UP!
+[Server 17:05:59.13 INFO]: Pomni: Where's the real Jax?
+[Server 17:05:59.87 INFO]: Cartoonish Jax: You're not gonna get anywhere asking questions like that! Now scram! You're messing up our game!
+[Server 17:06:14.45 INFO]: Pomni: Do any of you have a key to this door?
+[Server 17:06:15.40 INFO]: Maid Jax: Nope. And even if I did, I wouldn't give it to you. You women need to learn to quit prying all the ti-
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\LIBS\DATA\MAID_JAX> DELETE OK
+[Server 17:06:18.97 INFO]: SUCCESS : maid_jax Removed Successfully.
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\LIBS\DATA\CARTOON_JAX> DELETE1 OK
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\LIBS\DATA\KILLER_JAX> DELETE2 OK
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\LIBS\DATA\KILLER_JAX> DELETE --PROCEED OK
+[Server 17:06:36.49 INFO]: SUCCESS : cartoon_jax Removed Successfully.
+[Server 17:06:36.89 INFO]: SUCCESS : killer_jax Removed Successfully.
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\LIBS\DATA\PIANO_JAX> copy .\jax_data_unlock.zip ..\pomni OK
+[Server 17:06:38.39 INFO]: SUCCESS: copied jax_data_unlock.zip to ..\pomni
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\LIBS\DATA\PIANO_JAX> DELETE OK
+[Server 17:07:12.71 INFO]: SUCCESS : piano_jax Removed Successfully.
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\LIBS\DATA\POMNI> CD JAXLOCKED
+[Server 17:07:16.40 INFO]: ?뵏 Key File jax_data_unlock found. Keyfile Loading
+[Server 17:07:16.80 INFO]: ?뵏 [1/8] Loading Decryption Key 1
+[Server 17:07:17.18 INFO]: ?뵏 [2/8] Loading Decryption Key 2
+[Server 17:07:17.56 INFO]: ?뵏 [3/8] Loading Decryption Key 3
+[Server 17:07:17.95 INFO]: ?뵏 [4/8] Loading Decryption Key 4
+[Server 17:07:18.33 INFO]: ?뵏 [5/8] Loading Decryption Key 5
+[Server 17:07:18.71 INFO]: ?뵏 [6/8] Loading Decryption Key 6
+[Server 17:07:19.09 INFO]: ?뵏 [7/8] Loading Decryption Key 7
+[Server 17:07:19.48 INFO]: ?뵏 [8/8] Loading Decryption Key 8
+[Server 17:07:19.87 INFO]: ?뵏 Creating Decryption Key unlock-data@jax.key
+[Server 17:07:20.30 INFO]: Jax: Uh...
+[Server 17:07:38.00 INFO]: Jax: Okay... Wait... Wait! Whats-?
+[Server 17:07:39.94 INFO]: Ragatha: Woah, woah, it's okay! I know it's a lot-
+[Server 17:07:43.00 INFO]: Jax: Get away from me!
+[Server 17:07:44.70 INFO]: Jax: I look... stupid.
+[Server 17:07:48.62 INFO]: Ribbit: Heh. I remember that feeling. It goes away eventually.
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:08:04.65 INFO]: Kaufmo: Can t even tell its not real!
+[Server 17:08:06.26 INFO]: Ribbit: Oh! He laughed! Ah yes! We did it!
+[Server 17:08:09.83 INFO]: Jax: Sh-shut up! You caught me off guard!
+[Server 17:08:12.47 INFO]: Ribbit: A laugh's a laugh, gotta start somewhere!
+[Server 17:08:16.86 INFO]: Kaufmo: I'm just mad it was you instead of me.
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:08:20.15 INFO]: Jax: 'Sup, moron?!
+[Server 17:08:21.57 INFO]: Ribbit: Have you ever done something that you regret?
+[Server 17:08:31.23 INFO]: Jax: Yeah. Have you ever breathed air?
+[Server 17:08:32.23 INFO]: Ribbit: I cut ties with my parents when I moved out. They were devout Mormons and I wasn't. Despite that I still wish I could see them again. But... I'm stuck here.
+[Server 17:08:35.75 INFO]: Jax: I told you I was homeless. What else do you need to know?
+[Server 17:08:46.01 INFO]: Ribbit: Do you... trust me?
+[Server 17:08:47.04 INFO]: Jax: Uh, yeah, but... It's just... It's kind of a lot.
+[Server 17:09:31.87 INFO]: Ribbit: You're kind of a lot, but I still like you. A lot is fine.
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:10:18.94 INFO]: Jax: He never seemed proud of me and I always felt like a disappointment to him. Like I could never live up to his standards.
+[Server 17:11:01.62 INFO]: Jax: But when they split up, I just never saw him again. I thought I got along better with Mom, but... She changed.
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:11:15.25 INFO]: Jax: I guess there were a lot of things I regret about that day.
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:11:35.13 INFO]: Jax: I-I... I'm sorry, I definitely overshared...
+[Server 17:13:34.32 INFO]: Ribbit: I'm glad you trust me.
+[Server 17:13:47.89 INFO]: Jax: SCensorbarboingt! This is embarrassing!
+[Server 17:14:35.81 INFO]: Ribbit: Your secret's safe with me.
+[Server 17:14:36.98 INFO]: Jax: Why am I such an idiot? WHY AM I SUCH AN IDIOT?!
+[Server 17:14:46.57 INFO]: Jax: Oh, you mean- You know none of that was real, right? That corny backstory out of a Hallmark movie? Really got ya though!
+[Server 17:15:16.62 INFO]: Ribbit: Hey, wanna team up?
+[Server 17:15:22.30 INFO]: Jax: Nah, I'm teaming up with Kaufmo! Maybe next time though!
+[Server 17:15:26.30 INFO]: Ribbit: Hey, uh... You wanna team up?
+[Server 17:15:28.26 INFO]: Jax: Nah, I'm with Kaufmo.
+[Server 17:15:36.49 INFO]: Ribbit: Hey. Jax... Can we talk?
+[Server 17:16:03.30 INFO]: Jax: What is there for us to possibly talk about?
+[Server 17:16:05.87 INFO]: Ribbit: Whatever I did, whatever is going on between us, can we just stop this? I miss talking to you!
+[Server 17:16:13.26 INFO]: Jax: We're here! We're talking! What else do you want from me?
+[Server 17:16:15.96 INFO]: Ribbit: I just want to be... friends again.
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:16:23.32 INFO]: Ribbit: But we were- Jax, we were friends! We were great friends!
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:16:37.55 INFO]: Jax: YOU RE THE ONE USING ME! Youre manipulating me!
+[Server 17:16:50.78 INFO]: Ribbit: I m sorry... Ill leave you alone...
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:17:00.66 INFO]: Jax: Out of the way, Rags!
+[Server 17:17:04.37 INFO]: Jax: Have fun being crazy!
+[Server 17:18:42.28 INFO]: Jax: Whatever you say, kid.
+[Server 17:18:48.35 INFO]: Jax: You never know until it's too late!
+
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+[Server 17:19:03.19 INFO]: Jax: I'd move on... And probably forget about you.
+[Server 17:19:09.37 INFO]: Pomni: Hey-
+[Server 17:19:37.90 INFO]: Pomni: I didn't know you could play the piano.
+[Server 17:19:42.33 INFO]: Jax: I only know, like, two songs...
+[Server 17:19:52.29 INFO]: Jax: Why are you here?
+[Server 17:20:00.24 INFO]: Jax: You know everything now, so why are you here? Just to rub every mistake I ever made in my face?!
+[Server 17:20:47.24 INFO]: Jax: I'm... a terrible person...
+[Server 17:20:49.27 INFO]: Jax: Is that what you want me to say? I already know I am. So why does anybody still care about me?
+[Server 17:20:51.26 INFO]: Jax: You're not supposed to care!
+[Server 17:20:52.69 INFO]: Jax: You're not supposed to miss me, you're not supposed to love me!
+[Server 17:20:56.08 INFO]: Jax: This isn't how this is supposed to go!
+[Server 17:20:57.98 INFO]: Jax: Please... leave me alone!
+[Server 17:21:11.16 INFO]: Jax: You're making this so much harder!
+[Server 17:21:26.33 INFO]: Jax: (sobbing) You're making this so much harder.
+[Server 17:21:40.56 INFO]: Pomni: You should have just talked to me, man.
+[Server 17:21:46.05 INFO]: Jax: It's too late. I did this to myself. There's no coming back from this.
+[Server 17:21:55.31 INFO]: Pomni: Then... talk to me now.
+[Server 17:22:09.64 INFO]: Jax: I hate you, you know that? You always have to go and complicate things.
+[Server 17:22:22.34 INFO]: Pomni: (smiling) It's what I do.
+[Server 17:22:29.55 INFO]: Jax: (sobbing) I don't wanna go...
+[Server 17:22:47.79 INFO]: Pomni: Stay with me!
+[Server 17:22:58.44 INFO]: Kinger: Oh! You weren't gonna try to take care of him all by yourself, were you?
+[Server 17:23:56.17 INFO]: Ragatha: I'm glad we weren't too late.
+[Server 17:23:56.83 INFO]: Zooble: Like you guys keep saying: We're all in this together.
+[Server 17:23:58.88 INFO]: Pomni: You guys...
+[Server 17:23:59.94 INFO]: Zooble: Having a lot of complex thoughts?
+[Server 17:25:15.83 INFO]: Zooble: We're still human.
+[Server 17:25:37.87 INFO]: Ragatha: I hope it's enough to keep him contained.
+[Server 17:25:43.60 INFO]: Kinger: He should be calm in there. Darkness is soothing to them.
+[Server 17:25:46.49 INFO]: Zooble: Ugh, he better be. You know how many arms I had to go through to get him in there?
+[Server 17:25:51.96 INFO]: Ragatha: How are you holding up?
+[Server 17:25:54.76 INFO]: Pomni: Doesn't that hurt?
+[Server 17:25:58.45 INFO]: Ragatha: (chuckles) I've been through worse.
+[Server 17:26:02.02 INFO]: Pomni: Thank you for doing this. All of you.
+[Server 17:26:06.16 INFO]: Zooble: Hey! Someone had to do something.
+D:\VIEWMULTIMEDIA\CAINE\MAPPY> CD RECYCLEBIN OK
+[Server 17:26:46.57 INFO]: Caine: Was I... truly that bad? Is this really what I deserve? They tried to delete me. They're in the wrong, right? Did I... ruin this? Again?
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\RECYCLEBIN> ACQUIRE PERMISSION FORWARD OK
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\RECYCLEBIN> ACQUIRE PERMISSION FORWARD OK
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\RECYCLEBIN> ACQUIRE PERMISSION RUN OK
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\RECYCLEBIN> CD CA_NeuralScans_obsolete_ NO
+PERMISSION DENIED. PLEASE RUN ACQUIRE PERMISSION OPEN_FOLDERD:\VIEWMULTIMEDIA\CAINE\MAPPY\RECYCLEBIN> CD CA_NeuralScans_obsolete_ NO
+PERMISSION DENIED. PLEASE RUN ACQUIRE PERMISSION OPEN_FOLDERD:\VIEWMULTIMEDIA\CAINE\MAPPY\RECYCLEBIN> ACQUIRE PERMISSION OPEN_FOLDER
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : TerminatorExpectedAtEndOfString
+
+PERMISSION REQUIRES USER KEY. INPUT USER KEY[Server 17:28:55.80 INFO]: ?뵏 Loading CAINE-USER-KEY-16195625117594 OK
+[Server 17:29:00.79 INFO]: ?뵏 Loading CAINE-USER-KEY-318451326230148 OK
+[Server 17:29:02.14 INFO]: ?뵏 Loading CAINE-USER-KEY-11517120195476 NO
+[Server 17:29:08.30 INFO]: ?뵏 Loading CAINE-USER-KEY-13192249342269 NO
+[Server 17:29:13.03 INFO]: ?뵏 Loading CAINE-USER-KEY-2494410882535 OK
+[Server 17:29:17.87 INFO]: ?뵏 Loading CAINE-USER-KEY-5028142125386 OK
+[Server 17:29:19.06 INFO]: ?뵏 Loading CAINE-USER-KEY-15284312206313 OK
+[Server 17:29:20.34 INFO]: ?뵏 Loading CAINE-USER-KEY-80922131118893 OK
+[Server 17:29:21.46 INFO]: ?뵏 Loading CAINE-USER-KEY-125312394310855 OK
+[Server 17:29:22.62 INFO]: ?뵏 Loading CAINE-USER-KEY-86722440816569 OK
+[Server 17:29:23.58 INFO]: ?뵏 Loading CAINE-USER-KEY-324922002828609 OK
+[Server 17:29:24.63 INFO]: ?뵏 Loading CAINE-USER-KEY-544674636185 OK
+[Server 17:29:25.87 INFO]: ?뵏 Loading CAINE-USER-KEY-15202287768952 OK
+[Server 17:29:26.87 INFO]: ?뵏 Loading CAINE-USER-KEY-1979690314292 OK
+[Server 17:29:27.83 INFO]: ?뵏 Loading CAINE-USER-KEY-28415169416448 OK
+[Server 17:29:28.89 INFO]: ?뵏 Loading CAINE-USER-KEY-5102411121390 OK
+[Server 17:29:30.02 INFO]: ?뵏 Loading CAINE-USER-KEY-10911952018655 OK
+[Server 17:29:31.65 INFO]: ?뵏 Loading CAINE-USER-KEY-11165169432439 OK
+[Server 17:29:32.58 INFO]: ?뵏 Loading CAINE-USER-KEY-31747199554903 OK
+[Server 17:29:33.61 INFO]: ?뵏 Loading CAINE-USER-KEY-11503514712030 OK
+[Server 17:29:35.75 INFO]: ?뵏 Loading CAINE-USER-KEY-25423534415435 OK
+[Server 17:29:37.10 INFO]: ?뵏 Loading CAINE-USER-KEY-23203998723577 OK
+[Server 17:29:38.51 INFO]: ?뵏 Loading CAINE-USER-KEY-31979282009093 OK
+[Server 17:29:39.57 INFO]: ?뵏 Loading CAINE-USER-KEY-7068422326962 OK
+[Server 17:29:42.26 INFO]: ?뵏 Loading CAINE-USER-KEY-2968258501257 OK
+[Server 17:29:44.32 INFO]: ?뵏 Loading CAINE-USER-KEY-68581901812752 OK
+[Server 17:29:46.37 INFO]: ?뵏 Loading CAINE-USER-KEY-319651120528689 OK
+[Server 17:29:47.65 INFO]: ?뵏 Loading CAINE-USER-KEY-2779496223812 OK
+[Server 17:29:48.86 INFO]: ?뵏 Loading CAINE-USER-KEY-302333034313511 OK
+[Server 17:29:50.21 INFO]: ?뵏 Loading CAINE-USER-KEY-221051942120245 OK
+[Server 17:29:51.62 INFO]: ?뵏 Loading CAINE-USER-KEY-7251364425333 OK
+[Server 17:29:52.88 INFO]: ?뵏 Loading CAINE-USER-KEY-16447544312413 OK
+[Server 17:29:54.19 INFO]: ?뵏 Loading CAINE-USER-KEY-115661342011630 OK
+[Server 17:29:55.16 INFO]: ?뵏 Loading CAINE-USER-KEY-16938166086506 OK
+[Server 17:29:56.16 INFO]: ?뵏 Loading CAINE-USER-KEY-12154300036012 OK
+[Server 17:29:57.88 INFO]: ?뵏 Loading CAINE-USER-KEY-298743009215228 OK
+[Server 17:29:59.58 INFO]: ?뵏 Loading CAINE-USER-KEY-6757331025401 OK
+[Server 17:30:00.74 INFO]: ?뵏 Loading CAINE-USER-KEY-9152918519640 OK
+[Server 17:30:02.28 INFO]: ?뵏 Loading CAINE-USER-KEY-197752088319215 OK
+[Server 17:30:03.49 INFO]: ?뵏 Loading CAINE-USER-KEY-17061241924392 OK
+[Server 17:30:04.90 INFO]: ?뵏 Loading CAINE-USER-KEY-15952521815099 OK
+[Server 17:30:10.08 INFO]: ?뵏 Loading CAINE-USER-KEY-1939151927613 OK
+[Server 17:30:11.19 INFO]: ?뵏 Loading CAINE-USER-KEY-119652723693 OK
+[Server 17:30:12.83 INFO]: ?뵏 Loading CAINE-USER-KEY-66002357511255 OK
+[Server 17:30:13.95 INFO]: ?뵏 Loading CAINE-USER-KEY-276753272924017 OK
+[Server 17:30:14.79 INFO]: ?뵏 Loading CAINE-USER-KEY-305282153314453 OK
+[Server 17:30:16.43 INFO]: ?뵏 Loading CAINE-USER-KEY-30544845913097 OK
+D:\VIEWMULTIMEDIA\CAINE\MAPPY\RECYCLEBIN> open connect_wifi.exe OK
+Wifi: BlueStreetCafe_wifi
+Passcode Please!
+open mike_dobby
+apply mike_dobby-1.dat
+apply mike_dobby-2.dat
+apply mike_dobby-3.dat
+apply mike_dobby-4.dat
+copy mike_dobby-all.dat map\amazingdigitalcircus\playerdata
+fetch mike_dobby-all.dat wifi_Password
+>: **************
+[Server 17:30:49.27 INFO]: CONNECTED
+[Server 17:31:26.35 INFO]: wget google.com/search=abigail_brooks OK
+[Server 17:31:33.50 INFO]: wget google.com/search=zoey_raghavan OK
+[Server 17:31:37.00 INFO]: wget google.com/search=leeroy_mateo OK
+[Server 17:31:38.50 INFO]: wget google.com/search=Grant_best OK
+[Server 17:31:40.28 INFO]: wget google.com/search=Riley_verselis OK
+[Server 17:31:41.41 INFO]: Caine: I was irresponsible. I turned them against me. And for what? I could create intelligent beings that do whatever I want, but... I can't create them. After all, is their free will not what made them alluring in the first place?
+[Server 17:32:27.58 INFO]: Abel: But they hate me! They abandoned me!
+[Server 17:32:31.37 INFO]: Caine: They're from a world so much bigger than mine! I'm keeping them locked in a cage!
+[Server 17:32:37.86 INFO]: Abel: They had their fun out there! It's my turn now!
+[Server 17:32:42.16 INFO]: Abel: If I leave them unchecked they could kill me!
+[Server 17:32:52.18 INFO]: Caine: They already did. I'm sorry I did this to you, buddy.
+[Server 17:33:00.90 INFO]: DECOMPILE: CAINE-AI.jar OK
+[Server 17:33:05.77 INFO]: MOVE: ABEL-AI-1.0-SNAPSHOT.jar OK
+[Server 17:33:12.87 INFO]: RECOMPILE: CAINE-AI.jar OK
+[Server 17:33:14.46 INFO]: Caine: All this power we had together. But we just can't exist like this. I'll miss you. I really will.
+[Server 17:33:30.02 INFO]: Moon: Hi, Caine.
+[Server 17:34:21.42 INFO]: Caine: I don't know if I'm ready to face them again. I don't know if I deserve to be forgiven.
+[Server 17:34:26.37 INFO]: Moon: It may take time, but all good things do. I still love you.
+[Server 17:34:37.70 INFO]: Caine: You know... I never programmed you to say you loved me.
+[Server 17:34:46.79 INFO]: Moon: I know.
+[Server 17:35:18.53 INFO]: Caine: I- I understand that you're afraid. And you have no reason to trust me after all I've done. But I've been doing a lot of thinking and... I want to give you control of this place. I don't expect forgiveness, but I hope you'll at least accept my offer.
+[Server 17:36:20.15 INFO]: Zooble: Caine... You really caused a lot of hell for us. It's gonna take some time to build up any kind of trust between us again. But, despite all that, It's good to have you back.
+[Server 17:36:43.83 INFO]: Caine: Uh, did you need any help with...
+[Server 17:36:45.06 INFO]: Pomni: No. Not yet, anyway. We've worked something out.
+[Server 17:36:49.34 INFO]: Caine: Understandable. Oh, and, I've... made something for you. Uh, feel free to join me by the stage whenever you're ready.
+[Server 17:37:19.34 INFO]: Caine: (sigh)... No more secrets. No more mind games.
+[Server 17:37:22.66 INFO]: Pomni: (narrating) Pomni; Abigail Brooks. She's still an accountant, but she seems to have opened up more and is hanging out with new friends more often. She even has some of them in her videos with her, which she still posts on occasion.
+[Server 17:37:52.49 INFO]: Pomni: Ragatha; Suzie J. Ackerman. She appears to have left her hometown, cut all communication with her mother and has excelled in her career. She's made many friends, and it looks like she has a strong genuine connection with them. She seems happy, like she understands who she is and that she matters to people.
+[Server 17:38:17.74 INFO]: Pomni: Gangle; Zoey Raghavan. Despite her injuries, she's made a good recovery in the hospital. She quit her fast food job and has gotten a new job at a small design firm.
+[Server 17:38:36.27 INFO]: Pomni: She even began posting pages of her webcomic online.
+[Server 17:38:38.12 INFO]: Pomni: Zooble; Riley Verselis. After hopping around with different jobs, they look like they've settled a bit and opened their own bar. It seems to be a successful one. People all over the city come to it as a hip alternative destination, where they can feel like themselves, free of judgment.
+[Server 17:38:57.42 INFO]: Pomni: Kinger; Grant Best. He's still working in tech and is still happily married to his wife, Destiny. They appear to have two daughters together. He looks like he's a good dad.
+[Server 17:39:34.01 INFO]: Pomni: Jax; Leeroy Mateo. After being unhoused for a few months, he was able to room with one of his close friends. He seems to have gotten a stable job and is able to pay rent. He and his friends go out every now and again. Weirdly enough, a spot they seem to frequent is Riley's bar.
+[Server 17:40:05.20 INFO]: Zooble: Is any of this actually real?
+[Server 17:40:07.37 INFO]: Gangle: You definitely have it in you. Not sure about mine though.
+[Server 17:40:11.91 INFO]: Zooble: Well, maybe you've got more confidence than you thought.
+[Server 17:40:18.90 INFO]: Caine: I don't quite have the same power that I used to, but I can still make this place better for you. I'm keeping the worlds open, so you can do what you want when you feel like it.
+[Server 17:40:43.27 INFO]: Caine: You're gonna be able to build this place into something better. For all of you. What do you say, Pom- uh, I mean, Abigail?
+[Server 17:40:49.86 INFO]: Pomni: With all that being said and done, Abby is out there, living her best life. In here, I'm just Pomni.
