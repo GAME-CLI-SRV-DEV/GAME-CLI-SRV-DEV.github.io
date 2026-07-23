@@ -1,0 +1,36 @@
+<h1>Hello, Welcome to Plexio's Mini Homepage</h1>
+<h2>Introduction</h2>
+<p>I am a CPO of ViewMultimedia Internet Entertainment Enterprises Inc.</p>
+<p>But also...</p>
+<ul>
+<li>Owner of PlexPixel</li>
+<li></li>
+<li>Easy reuse inside CMS editors</li>
+</ul>
+<blockquote>
+<p>Keep the structure clean before you paste the final HTML.</p>
+</blockquote>
+<h3>DNS</h3>
+<h4>Domain Name plexpixel.com</h4>
+<div class="table-wrapper"><table><thead><tr><th>name</th><th>type</th><th>Value</th></tr></thead><tbody><tr><td>_viewnat-key</td><td>TXT</td><td>dmlldy12ZXJpZmljYXRpb24ta2V5LXV1aWQ9MmM3MmY5YWMtMjE1Mi00YjYzLTlhMGMtNTYwOGFlYzBhNTUwK3ZpZXctdmVyaWZpY2F0aW9uLWtleS1jdWlkPXN2cjVmM3p3YzloYW8zMm84NjVqNXg5aA==</td></tr><tr><td>java</td><td>CNAME</td><td>5f0c6390-40cf-4b16-8895-09b11cb4c83d.ipv4.tcp.viewmultimediainternet.com</td></tr><tr><td>bedrock</td><td>CNAME</td><td>d684336f-0dc0-4b5e-81c7-0c3a28200262.ipv4.udp.viewmultimediainternet.com</td></tr></tbody></table></div>
+<h4>Zone File</h4>
+<pre><code>$TTL 3600
+@       IN      SOA     ://viewdns.viewmultimediainternet.com. ://plexio.viewmultimediainternet.com. (
+                        2026072401
+                        7200
+                        3600
+                        1209600
+                        3600
+)
+
+@       IN      NS      ://viewmultimediainternet.com.
+@       IN      NS      ://viewmultimediainternet.com.
+@       IN      NS      dana.ns.cloudflare.com.
+@       IN      NS      lee.ns.cloudflare.com.
+
+_viewnat-key  IN  TXT    "dmlldy12ZXJpZmljYXRpb24ta2V5LXV1aWQ9MmM3MmY5YWMtMjE1Mi00YjYzLTlhMGMtNTYwOGFlYzBhNTUwK3ZpZXctdmVyaWZpY2F0aW9uLWtleS1jdWlkPXN2cjVmM3p3YzloYW8zMm84NjVqNXg5aA=="
+java          IN  CNAME  5f0c6390-40cf-4b16-8895-09b11cb4c83d.ipv4.tcp.viewmultimediainternet.com.
+bedrock       IN  CNAME  d684336f-0dc0-4b5e-81c7-0c3a28200262.ipv4.udp.viewmultimediainternet.com.
+
+</code></pre>
+<p>(C) 2021 Plexio Donovan Maximus</p>
