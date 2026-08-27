@@ -37,7 +37,7 @@
             
             // 1. 구글 전용 임베드 파라미터 강제 우회
             if (lowerUrl.includes('google.com') && !lowerUrl.includes('igu=1')) {
-                url = 'https://google.com';
+                url = 'https://google.com?igu=1';
             } 
             // 2. 디스코드, 네이버 메일, 다음 등 방대한 전 세계 모든 웹사이트 처리
             else if (!lowerUrl.includes('google.com')) {
