@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lithium Browser - GoAnimate OS PPT Edition</title>
+    <style>
+        body { margin: 0; display: flex; flex-direction: column; height: 100vh; font-family: 'Comic Sans MS', Arial, sans-serif; background: #2f3136; color: white; overflow: hidden; }
+        #toolbar { display: flex; padding: 8px; background: #202225; border-bottom: 1px solid #18191c; align-items: center; }
+        .nav-btn { padding: 6px 12px; margin-right: 6px; font-size: 14px; cursor: pointer; background: #4f545c; color: white; border: none; border-radius: 4px; font-weight: bold; transition: 0.15s; }
+        .nav-btn:hover { background: #686d73; }
+        
+        /* Green Escape Button to Reset to Desktop / Home Site */
+        #home-btn { background: #23a55a; }
+        #home-btn:hover { background: #1a7f43; }
+
+        #url-input { flex: 1; padding: 6px 10px; font-size: 14px; border: none; border-radius: 4px; background: #40444b; color: #00ffcc; font-weight: bold; outline: none; }
+        #go-btn { padding: 6px 14px; margin-left: 6px; font-size: 14px; cursor: pointer; background: #5865F2; color: white; border: none; border-radius: 4px; font-weight: bold; }
+        #go-btn:hover { background: #4752C4; }
+        #view-port { flex: 1; border: none; width: 100%; height: 100%; background: white; }
+    </style>
+</head>
+<body>
+
+    <div id="toolbar">
+        <!-- Secure Reset Button to Escape Deadlocks -->
+        <button id="home-btn" class="nav-btn">🏠 HOME</button>
+        <button id="back-btn" class="nav-btn">◀ BACK</button>
+        <button id="reload-btn" class="nav-btn">🔄 RELOAD</button>
+        
+        <input type="text" id="url-input" placeholder="Enter URL (e.g., ://discord.com)" value="https://google.com">
+        <button id="go-btn">Go</button>
+        
+        <!-- Native Popup Trigger to Securely Authenticate Discord Sessions -->
+        <button id="login-btn" class="nav-btn" style="background: #5865F2; margin-left: 6px;">🔑 DISCORD LOGIN</button>
+    </div>
+
+    <!-- Active Viewport Frame Running Without GitHub Security Alert Limitations -->
+    <iframe id="view-port" src="https://google.com"></iframe>
+
+    <script>
+        const urlInput = document.getElementById('url-input');
+        const goBtn = document.getElementById('go-btn');
+        const viewPort = document.getElementById('view-port');
+        const backBtn = document.getElementById('back-btn');
+        const reloadBtn = document.getElementById('reload-btn');
+        const homeBtn = document.getElementById('home-btn');
+        const loginBtn = document.getElementById('login-btn');
+
+        // Setup the initial home layout value
+        const DEFAULT_HOME = 'https://google.com';
+        let customHistory = [DEFAULT_HOME];
+        let currentPointer = 0; 
+
+        function navigate(targetUrl, isBackAction = false) {
+            let url = targetUrl || urlInput.value.trim();
+            if (!url) return;
+
+            if (!url.startsWith('http://') && !url.startsWith('https://')) {
+                url = 'https://' + url;
+            }
+            
+            // Clean up left-over proxies from previous queries
+            let rawUrl = url;
+            if (rawUrl.includes('corsproxy.io/?url=')) {
+                rawUrl = decodeURIComponent(rawUrl.split('corsproxy.io/?url=')[1]);
+            }
+
+            const lowerUrl = rawUrl.toLowerCase();
+            let finalProxyUrl = rawUrl;
+            
+            // 1. Google Embed Optimization Bypass
+            if (lowerUrl.includes('google.com')) {
+                if (!lowerUrl.includes('igu=1')) {
+                    rawUrl = 'https://google.com'; 
+                }
+                finalProxyUrl = rawUrl;
+            } 
+            // 2. Discord Safe-Pass: Direct URL required to inject WebView2 native login cookies
+            else if (lowerUrl.includes('discord.com')) {
+                finalProxyUrl = rawUrl; 
+            }
+            // 3. Mod Asset Forums Proxy Router utilizing the correct Query String format
+            else {
+                finalProxyUrl = 'https://corsproxy.io' + encodeURIComponent(rawUrl);
+            }
+
+            // Sync History Tracking Points
+            if (!isBackAction) {
+                customHistory = customHistory.slice(0, currentPointer + 1);
+                if (customHistory[customHistory.length - 1] !== rawUrl) {
+                    customHistory.push(rawUrl);
+                    currentPointer++;
+                }
+            }
+
+            urlInput.value = rawUrl; 
+            viewPort.src = finalProxyUrl; 
+        }
+
+        // ◀ BACK Navigation Controller
+        backBtn.addEventListener('click', () => {
+            if (currentPointer > 0) {
+                currentPointer--; 
+                const previousUrl = customHistory[currentPointer];
+                navigate(previousUrl, true); 
+            } else {
+                goHome();
+            }
+        });
+
+        // 🏠 HOME Forced Reset Engine
+        function goHome() {
+            customHistory = [DEFAULT_HOME];
+            currentPointer = 0;
+            navigate(DEFAULT_HOME, true);
+        }
+        homeBtn.addEventListener('click', goHome);
+
+        // 🔑 Discord Session Authentication Gateway
+        loginBtn.addEventListener('click', () => {
+            window.open('https://discord.com', 'DiscordLogin', 'width=500,height=700');
+            alert("Please log in to your account in the popup window.");
+        });
+
+        reloadBtn.addEventListener('click', () => { viewPort.src = viewPort.src; });
+        goBtn.addEventListener('click', () => navigate());
+        urlInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') navigate(); });
+
+        // Popup Interceptor Sandbox Override
+        viewPort.addEventListener('load', () => {
+            try {
+                const win = viewPort.contentWindow || viewPort.contentDocument.defaultView;
+                if(win) {
+                    win.open = function(popupUrl, name, specs) {
+                        // Protect critical Discord authorization streams from breaking inside the sandbox
+                        if (popupUrl.includes('://discord.com') || popupUrl.includes('://discord.com')) {
+                            return window.open(popupUrl, name, specs);
+                        }
+                        navigate(popupUrl);
+                        return null;
+                    };
+                }
+            } catch(e) {}
+        });
+    </script>
+</body>
+</html>
+
