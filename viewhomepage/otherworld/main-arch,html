@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTHER WORLD - Forever is just a click away</title>
+    <style>
+        /* Retro Early-2000s Web Aesthetic & Eerie Glow */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #050508;
+            color: #d0d0e0;
+            font-family: "Courier New", Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+            background-image: radial-gradient(circle at center, #111122 0%, #030305 100%);
+            overflow-x: hidden;
+        }
+
+        /* Subtle CRT Scanline Effect */
+        body::before {
+            content: " ";
+            display: block;
+            position: fixed;
+            top: 0; left: 0; bottom: 0; right: 0;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+                        linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+            z-index: 999;
+            background-size: 100% 3px, 6px 100%;
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 720px;
+            width: 100%;
+            border: 1px solid #33334d;
+            background-color: rgba(10, 10, 18, 0.85);
+            padding: 35px;
+            box-shadow: 0 0 25px rgba(80, 100, 255, 0.12);
+            text-align: center;
+        }
+
+        /* Header Section */
+        header {
+            border-bottom: 1px dashed #33334d;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            letter-spacing: 8px;
+            color: #ffffff;
+            text-shadow: 0 0 10px #7a8cff, 0 0 20px #4a5cff;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-style: italic;
+            color: #8f9bb3;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+        }
+
+        /* Intro Message */
+        .welcome-box {
+            margin-bottom: 35px;
+            line-height: 1.7;
+            font-size: 0.95rem;
+            color: #b8c0d9;
+        }
+
+        /* The Three Pillars */
+        .pillars {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .pillar-card {
+            flex: 1;
+            border: 1px solid #2a2a40;
+            background-color: #0b0b14;
+            padding: 20px 15px;
+            transition: all 0.3s ease;
+        }
+
+        .pillar-card:hover {
+            border-color: #6c7bff;
+            box-shadow: 0 0 15px rgba(108, 123, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        /* CSS Geometric Shapes */
+        .shape {
+            width: 36px;
+            height: 36px;
+            margin: 0 auto 15px auto;
+        }
+
+        .shape-cube {
+            border: 2px solid #7a8cff;
+            box-shadow: 0 0 8px rgba(122, 140, 255, 0.5);
+        }
+
+        .shape-sphere {
+            border: 2px solid #7affc3;
+            border-radius: 50%;
+            box-shadow: 0 0 8px rgba(122, 255, 195, 0.5);
+        }
+
+        .shape-pyramid {
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 36px solid #ff7a9e;
+            filter: drop-shadow(0 0 6px rgba(255, 122, 158, 0.5));
+        }
+
+        .pillar-card h3 {
+            font-size: 1.1rem;
+            color: #ffffff;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+
+        .pillar-card p {
+            font-size: 0.8rem;
+            color: #8892b0;
+            line-height: 1.4;
+        }
+
+        /* Login / Invite Code Gate */
+        .gate-box {
+            border: 1px solid #3c3c5c;
+            background-color: #08080f;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+
+        .gate-box label {
+            display: block;
+            font-size: 0.85rem;
+            color: #a0a8c0;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        .input-group {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        input[type="text"] {
+            background-color: #030308;
+            border: 1px solid #555577;
+            color: #7affc3;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1rem;
+            padding: 10px 15px;
+            text-align: center;
+            letter-spacing: 2px;
+            outline: none;
+            width: 220px;
+        }
+
+        input[type="text"]:focus {
+            border-color: #7a8cff;
+            box-shadow: 0 0 10px rgba(122, 140, 255, 0.3);
+        }
+
+        button {
+            background-color: #1a1a2e;
+            border: 1px solid #7a8cff;
+            color: #ffffff;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.95rem;
+            padding: 10px 20px;
+            cursor: pointer;
+            letter-spacing: 1px;
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            background-color: #2c2c54;
+            box-shadow: 0 0 12px rgba(122, 140, 255, 0.5);
+        }
+
+        /* System Notice Footer */
+        .system-notice {
+            text-align: left;
+            border-top: 1px dashed #33334d;
+            padding-top: 20px;
+            font-size: 0.8rem;
+            color: #6b728e;
+        }
+
+        .system-notice p {
+            margin-bottom: 6px;
+        }
+
+        .warning {
+            color: #b3596d;
+        }
+
+        .status-bar {
+            margin-top: 25px;
+            font-size: 0.75rem;
+            color: #4a5068;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .pillars {
+                flex-direction: column;
+            }
+            h1 {
+                font-size: 2rem;
+                letter-spacing: 4px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>OTHER WORLD</h1>
+            <p class="tagline">“Forever is just a click away.”</p>
+        </header>
+
+        <section class="welcome-box">
+            <p>Welcome to a digital utopia frozen in time.</p>
+            <p>This is a place of shared memories, quiet secrets, and a promise that you never have to leave.</p>
+        </section>
+
+        <section class="pillars">
+            <div class="pillar-card">
+                <div class="shape shape-cube"></div>
+                <h3>CUBE</h3>
+                <p>Community.<br>The bonds that connect us across the void.</p>
+            </div>
+
+            <div class="pillar-card">
+                <div class="shape shape-sphere"></div>
+                <h3>SPHERE</h3>
+                <p>Creativity.<br>The spark that keeps our virtual souls alive.</p>
+            </div>
+
+            <div class="pillar-card">
+                <div class="shape shape-pyramid"></div>
+                <h3>PYRAMID</h3>
+                <p>Structure.<br>The foundation holding this reality together.</p>
+            </div>
+        </section>
+
+        <section class="gate-box">
+            <label for="invite-code">[ ACCESS REQUIRES A VALID INVITE CODE ]</label>
+            <form class="input-group" onsubmit="event.preventDefault(); alert('Connecting to server... Error: Host user [liz_09] is offline.');">
+                <input type="text" id="invite-code" value="Neverland" placeholder="Enter Code">
+                <button type="submit">ENTER WORLD</button>
+            </form>
+        </section>
+
+        <footer class="system-notice">
+            <p>&gt; SYSTEM NOTICE:</p>
+            <p>* This world remains active even when all players have logged off. this can be happened via a ritual.</p>
+            <p>* Before connecting to baphomet's house, verify whose place you are taking.</p>
+            <p class="warning">* Once the ritual begins, it cannot be undone.</p>
+
+            <div class="status-bar">
+                <span>SERVER STATUS: DORMANT</span>
+                <span>ACTIVE USERS: 1 (YOU)</span>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
